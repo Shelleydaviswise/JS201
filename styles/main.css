@@ -1,3 +1,60 @@
+.row {
+  border: 1px solid black; }
 
+html body {
+  font: 100% Lato, serif;
+  background-color: #407F7F;
+  color: black;
+  font-size: 1em; }
+
+.augment-nav {
+  background-color: #0D4D4D; }
+  .augment-nav li {
+    font-size: 2em;
+    padding: 1em; }
+  .augment-nav a {
+    text-decoration: none;
+    color: black; }
+  .augment-nav a:hover {
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #669999;
+    background-color: white; }
+
+#song-column {
+  background-color: white; }
+
+#song-list {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #003333;
+  margin: 15px 0 0 0; }
+
+#song-list div {
+  padding: 3px 0 0 20px; }
+
+p {
+  font-size: 1.5em; }
+
+h3 {
+  font-weight: 700;
+  font-style: italic; }
+
+#deleteButton {
+  width: 100px;
+  font-size: .75em;
+  font-style: italic;
+  border-radius: 6px;
+  background-color: #669999; }
+
+.more-songs {
+  width: 150px;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.25em;
+  border-radius: 6px;
+  background-color: #FFEDA3; }
+
+.more-songs:hover {
+  text-shadow: 1px 1px 1px white; }
 
 /*# sourceMappingURL=main.css.map */

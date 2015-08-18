@@ -1,0 +1,120 @@
+
+// Property Variables
+
+
+$font-stack: Lato, serif;
+$primary-color: black;
+$background-color: #407F7F;
+
+.row {
+  border: 1px solid black;
+  }
+
+html body {
+  font: 100% $font-stack;
+  background-color: $background-color;
+  color: $primary-color;
+  font-size: 1em;
+}
+
+
+$nav-bg-color: #0D4D4D;
+$nav-on-hover: #669999;
+
+.augment-nav {
+    background-color: $nav-bg-color;
+
+    li {
+      font-size: 2em; 
+      padding: 1em;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover {
+      font-weight: 700;
+      text-shadow: 1px 1px 1px $nav-on-hover;
+      background-color: white;
+     }
+} 
+
+
+
+
+
+// Main Color List
+// see the color palette here
+//  Palette URL: http://paletton.com/#uid=52l0+0kaBqHds-2amvsa0nv8FkJ */
+
+// SASS style sheet */
+// Palette color codes */
+// Palette URL: http://paletton.com/#uid=13i0u0kllllaFw0g0qFqFg0w0aF */
+
+// As hex codes */
+
+$color-primary-0: #226666;  // Main Primary color */
+$color-primary-1: #669999;
+$color-primary-2: #407F7F;   // Main page background
+$color-primary-3: #0D4D4D;   //navbar background 
+$color-primary-4: #003333;
+
+
+
+ $del-btn-bg: #669999;
+#song-column {
+  background-color: white;
+}
+
+
+#song-list {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #003333;
+  margin: 15px 0 0 0;
+}
+
+#song-list div {
+  padding: 3px 0 0 20px;
+}
+
+p {
+  font-size: 1.5em;     
+} 
+
+h3 {
+  font-weight: 700;
+  font-style: italic;
+
+}
+
+#deleteButton {
+  width: 100px;
+  font-size: .75em;
+  font-style: italic;
+  border-radius: 6px;  
+  background-color: $del-btn-bg;
+}
+
+
+.more-songs {
+  width: 150px;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.25em;
+  border-radius: 6px;
+  background-color: #FFEDA3;
+}
+
+.more-songs:hover {
+  text-shadow: 1px 1px 1px white;
+}
+
+
+
+
+
+
+

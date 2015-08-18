@@ -49,19 +49,20 @@
                   <label for ='title' > Name</label>
                   <input id = 'name-input' class = "inputField" type="text" name="name" placeholder = 'First Last' autofocus><br>
                   <label for ='age' > Age </label>
-                  <input id = 'age-input' class = "inputField" type="text" name="age" placeholder = 'Artist or Group Name'><br>
+                  <input id = 'age-input' class = "inputField" type="text" name="age" placeholder = 'Age'><br>
                   <label for ='gender' > Gender </label>
                   <input id = 'gender-input' class = "inputField" type="text" name="gender" placeholder = 'Gender'><br>
                   <label for ='skills' > Special Skills </label>
-                  <input id = 'skills-input' class = "inputField" type="text" name="skills" placeholder = 'List Special Skills'><br>
+                  <div><textarea id = 'skills-input' class = "inputField" type="text" name="skills" placeholder = 'List Special Skills'cols="30" rows="4"></textarea></div>
+                  <br>
                 </div> <!-- close input div -->
             </fieldset>
           </form>
         </div>
     
-           <button type='button' id ='post-song' class='btn btn-default'>Add to Family Database</button>
+           <button type='button' id ='postFamily' class='btn btn-default'>Add to Family Database</button>
 
-        <div class='col-sm-7' id='song-column'> 
+        <div class='col-sm-7' id='list-column'> 
           <div id='listFamily'></div>
             
         </div>
