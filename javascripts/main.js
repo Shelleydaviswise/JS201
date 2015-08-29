@@ -32,7 +32,7 @@ requirejs(
         }
       );     
     });
-    
+    // Add family member to Firebase 
     $("#postFamily").click(function(){
       console.log(add);
 
@@ -49,6 +49,14 @@ requirejs(
       add.queryFamily(newFamily);
 
     });
+
+// delete family member from Firebase
+
+    $('#listFamily').on ('click', '#delFB', function() {
+      del.fmlyMbr(myFirebaseRef, $(this));
+
+    });
+
   }
 );    
 
