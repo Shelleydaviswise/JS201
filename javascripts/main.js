@@ -18,8 +18,8 @@ requirejs.config({
 });
 
 requirejs(
-  ['jquery', 'hbs', 'bootstrap', 'addFam', 'getFam', 'delFam'], 
-  function($, Handlebars, bootstrap, add, get, del) {
+  ['jquery', 'firebase','hbs', 'bootstrap', 'addFam', 'getFam', 'delFam'], 
+  function($, _firebase, Handlebars, bootstrap, add, get, del) {
 
     var myFirebaseRef = new Firebase("https://shelley-family-quiz.firebaseio.com/");
     myFirebaseRef.child("family").on("value", function(snapshot) {
@@ -43,8 +43,10 @@ requirejs(
         skills: $("#skills-input").val()
       };
 
+
       console.log(newFamily);
-    
+
+      add.queryFamily(newFamily);
 
     });
   }
